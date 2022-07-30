@@ -104,6 +104,5 @@ example();
 
 ## Using streams
 
-All those methods write the full content to the file before returning the control back to your program (in the async version, this means executing the callback)
-
+All those methods write the full content to the file before re
 In this case, a better option is to write the file content using streams.
